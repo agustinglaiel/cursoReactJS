@@ -48,14 +48,14 @@ export default function MiComponenteConContexto() {
   function actualizarSesion() {
     setSessionData({
       token: "jwt123456789",
-      session: sessionData.sesion + 1,
+      session: sessionData.session + 1,
     });
   }
 
   return (
     <miContexto.Provider value={sessionData}>
       {/* Todo lo que esté aca adentro puede leer los datos de sessionData */}
-      {/*Ademas, si se actualizan los componentes, tambien se actualizan */}
+      {/* Ademas, si se actualizan los componentes, tambien se actualizan */}
       <h1>Ejemplo de useState y useContext</h1>
       <Componente1></Componente1>
       <button onClick={actualizarSesion}>Actualizar Sesion</button>
