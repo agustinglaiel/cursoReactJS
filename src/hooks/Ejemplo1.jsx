@@ -1,7 +1,7 @@
 /**
  * Ejemplo de uso del Hook useState
  *
- * Crear un componente de tipo funcion y acceder a su esstado privado
+ * Crear un componente de tipo funcion y acceder a su estado privado
  * a traves de un hook y, ademas, poder modificarlo.
  */
 

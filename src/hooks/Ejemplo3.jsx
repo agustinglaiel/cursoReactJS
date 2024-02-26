@@ -8,15 +8,13 @@ import React, { useState, useContext } from "react";
 /**
  *
  * @returns componente 1
- * disponde de un contexto que va a tener un valor
- * que recibe desde el padre
+ * dispone de un contexto que va a tener un valor que recibe desde el padre
  */
 
 const miContexto = React.createContext(null);
 
 const Componente1 = () => {
   //inicializamos vacio que va a rellenarse con los datos del contexto del padre.
-
   const state = useContext(miContexto);
 
   return (
